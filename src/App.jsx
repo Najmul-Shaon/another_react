@@ -1,4 +1,5 @@
 import "./App.css";
+import Counter from "./Counter";
 
 function App() {
   function handleClick() {
@@ -20,6 +21,7 @@ function App() {
         Click3
       </button>
       <button onClick={handleClick2}>Click4</button>
+      <Counter></Counter>
     </>
   );
 }
